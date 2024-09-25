@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
 import ProjectCard from "../components/ProjectCard"; // used to render each Project
 import { useEffect, useState } from "react";
-import axios, { all } from "axios";
+import axios from "axios";
 
 // fetch, useEffect, resolver la promesa, estado, loading
 
 function ProjectListPage() {
+
 
   const [ allProjects, setAllProjects ] = useState(null)
 
